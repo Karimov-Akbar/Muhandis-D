@@ -211,6 +211,7 @@ ul{
     font-weight: 700;
     font-size: 40px;
     color: #000;
+    text-align: center;
 }
 
 .labs__content-info p{
@@ -293,6 +294,7 @@ ul{
     font-weight: 700;
     font-size: 40px;
     color: #000;
+    text-align: center;
 }
 
 .innovations__content-info p{
@@ -358,44 +360,6 @@ ul{
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     margin-top: 50px;
     background: #0096DB;
@@ -458,4 +422,292 @@ ul{
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        padding: 0 20px;
+    }
+
+    .navbar__list {
+        gap: 20px;
+    }
+
+    .header__content h1 {
+        font-size: 40px;
+    }
+
+    .labs__content {
+        gap: 60px;
+    }
+
+    .labs__content img {
+        width: 450px;
+        height: 280px;
+    }
+
+    .labs__content-info h2,
+    .innovations__content-info h2 {
+        font-size: 32px;
+    }
+
+    .innovations__content {
+        gap: 60px;
+    }
+
+    .innovations__content img {
+        width: 450px;
+        height: 280px;
+    }
+
+    .labs__gallery-content-images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .labs__gallery-content-images img {
+        width: 220px;
+        height: 130px;
+    }
+
+    .labs__gallery-content-card h3 {
+        max-width: 220px;
+    }
+
+    .top__innovations-card {
+        padding: 40px;
+    }
+
+    .top__innovations-card img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .footer__content-links {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .navbar__content {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .navbar__list {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar__social {
+        gap: 15px;
+    }
+
+    .navbar__social-link img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .header__content h1 {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .labs {
+        margin-top: 60px;
+    }
+
+    .labs__content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .labs__content img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .labs__content-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .labs__content-info h2 {
+        font-size: 28px;
+    }
+
+    .innovations__content-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .labs__gallery-content h2 {
+        font-size: 28px;
+    }
+
+    .labs__gallery-content-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .labs__gallery-content-images img {
+        width: 100%;
+        max-width: 300px;
+        height: 180px;
+    }
+
+    .labs__gallery-content-card h3 {
+        max-width: 100%;
+    }
+
+    .innovations {
+        margin-top: 60px;
+    }
+
+    .innovations__content {
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .innovations__content img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .innovations__content-info h2 {
+        font-size: 28px;
+    }
+
+    .labs__gallery {
+        margin-top: 80px;
+        padding: 40px 0;
+    }
+
+    .innovations__gallery {
+        margin-top: 40px;
+        padding: 40px 0;
+    }
+
+    .innovations__gallery h2 {
+        font-size: 28px;
+    }
+
+    .top__innovations h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .top__innovations-card {
+        padding: 30px 20px;
+    }
+
+    .top__innovations-card h3 {
+        font-size: 24px;
+    }
+
+    .top__innovations-card p {
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding: 25px 0;
+    }
+
+    .footer__content-links {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer__list {
+        align-items: center;
+    }
+
+    .footer__list-contacts li {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .footer__copy {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar__link,
+    .lang-switcher__toggle,
+    .lang-switcher__option {
+        font-size: 14px;
+    }
+
+    .header {
+        height: 350px;
+    }
+
+    .header__content h1 {
+        font-size: 28px;
+    }
+
+    .labs__content-info h2,
+    .innovations__content-info h2,
+    .labs__gallery-content h2,
+    .innovations__gallery h2,
+    .top__innovations h2 {
+        font-size: 24px;
+    }
+
+    .labs__content-info p,
+    .innovations__content-info p {
+        font-size: 14px;
+    }
+
+    .labs__gallery-content-card h3 {
+        font-size: 14px;
+    }
+
+    .top__innovations-card {
+        padding: 20px 15px;
+    }
+
+    .top__innovations-card h3 {
+        font-size: 20px;
+    }
+
+    .top__innovations-card p {
+        font-size: 13px;
+    }
+
+    .footer__list-link {
+        font-size: 14px;
+    }
+
+    .footer__copy {
+        font-size: 12px;
+    }
 }
