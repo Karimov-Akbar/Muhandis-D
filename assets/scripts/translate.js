@@ -111,35 +111,8 @@ function updateDropdownOptions() {
     }
 }
 
-function showLoadingIndicator() {
-    const indicator = document.createElement('div');
-    indicator.id = 'loading-indicator';
-    indicator.style.cssText = `
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: rgba(0, 0, 0, 0.8);
-        color: white;
-        padding: 20px;
-        border-radius: 5px;
-        z-index: 9999;
-        font-family: Arial, sans-serif;
-    `;
-    indicator.textContent = 'Загрузка переводов...';
-    document.body.appendChild(indicator);
-}
-
-function hideLoadingIndicator() {
-    const indicator = document.getElementById('loading-indicator');
-    if (indicator) {
-        indicator.remove();
-    }
-}
-
 async function initLanguageSwitcher() {
     try {
-        showLoadingIndicator();
         
         const savedLanguage = localStorage.getItem('selectedLanguage');
         if (savedLanguage && availableLanguages.includes(savedLanguage)) {
@@ -148,7 +121,6 @@ async function initLanguageSwitcher() {
         
         await loadTranslation(currentLanguage);
         
-        hideLoadingIndicator();
         
         updateTranslations();
         
@@ -182,7 +154,6 @@ async function initLanguageSwitcher() {
         
     } catch (error) {
         console.error('Ошибка инициализации переключателя языков:', error);
-        hideLoadingIndicator();
         
         currentLanguage = 'ru';
         updateLanguageDisplay();
