@@ -1,8 +1,8 @@
 const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     loop: true,
     grabCursor: true,
-    spaceBetween: 30,
+    spaceBetween: 20, 
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -11,6 +11,16 @@ const swiper = new Swiper(".mySwiper", {
         delay: 3000,
         disableOnInteraction: false,
     },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        }
+    }
 });
 
 const swiperThumbs = new Swiper(".topInnovationsSwiper-thumbs", {
