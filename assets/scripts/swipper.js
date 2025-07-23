@@ -1,6 +1,5 @@
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    lazy: true,
     loop: true,
     grabCursor: true,
     spaceBetween: 30,
@@ -23,7 +22,6 @@ const swiperThumbs = new Swiper(".topInnovationsSwiper-thumbs", {
 });
 
 const swiperMain = new Swiper(".topInnovationsSwiper-main", {
-    lazy: true,
     loop: true,
     spaceBetween: 10,
     thumbs: {
