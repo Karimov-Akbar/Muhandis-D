@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Innovation Center",
+  "laboratories": "Laboratories",
+  "projects": "Projects",
+  "startups": "Startups", 
+  "innovationCenter": "INNOVATION CENTER",
+  "laboratoriesTitle": "LABORATORIES",
+  "labTypes": "TYPES OF LABORATORIES",
+  "projectsTitle": "PROJECTS",
+  "ourProjects": "OUR PROJECTS",
+  "famousProjects": "FAMOUS PROJECTS",
+  
+  "labsDescription": "The university laboratories are equipped with modern equipment for practical reinforcement of students' theoretical knowledge. The \"Architectural Modeling\" laboratory allows creating models using 3D printers, while the \"Electrical Engineering Laboratory\" and \"Robotics Laboratory\" provide access to oscilloscopes, multimeters and Arduino platforms. In the \"Mechatronics Laboratory\" students work with pneumatic, hydraulic and servo drive stands. The \"Alternative Energy Laboratory\" and \"Building Materials Laboratory\" allow studying renewable energy sources and physical properties of materials, providing comprehensive practical training of specialists.",
+  
+  "electronicsLab": "Electronics Laboratory",
+  "mechatronicsLab": "Mechatronics Laboratory",
+  "renewableEnergyLab": "Renewable Energy Laboratory", 
+  "constructionLab": "Construction Laboratory",
+  "roboticsLab": "Robotics Laboratory",
+  
+  "projectsDescription": "The university actively implements practice-oriented learning and innovative projects. An educational elevator stand has been created for students, allowing them to program PLCs and work with sensors, and a vertical wind turbine has been installed to study alternative energy and reduce energy consumption. KIUT robots with face recognition and self-learning functions have been developed, and the \"Muhandis D\" startup incubator prepares engineers in CAD, robotics and mechatronics. All these initiatives correspond to the \"Industry 4.0\" concept, integrating the Internet of Things (IoT) and artificial intelligence to create \"smart\" production solutions.",
+  
+  "robotKiut": "Robot KIUT 1.0",
+  "robotDescription": "Functionality: The robot is adapted to perform general tasks such as identifying faces included in the database through face recognition and providing information about the university. Robot KIUT 2.0: a) Introduction: A person's request in a new conversation to include them in the database, after receiving the answer \"Agree\", performs the task of including them in the database. At the next meeting, he will have the opportunity to get acquainted and tell information about him. b) Connection with Artificial Intelligence.",
+  
+  "verticalTurbine": "Vertical Wind Turbine",
+  "turbineDescription": "A vertical axis wind generator is a wind generator installed in building B of Tashkent International University of Chemistry, unlike traditional wind generators, this generator does not have a negative impact on wind direction changes. This generator was installed to reduce the university's external electricity consumption. The wind generator reaches optimal operating mode when wind speed reaches 4-6 m/s. The maximum power of this device is 500 W. A distinctive feature of this wind generator is that the installation power can be increased by adding additional wind generators, and the device design allows this.",
+  
+  "liftStand": "Elevator Training Stand",
+  "liftDescription": "This stand is mainly intended for students studying in the field of elevators, who will have the opportunity to apply their theoretical knowledge in practice using this educational stand. The elevator training stand is made in 2 copies, each consisting of 5 floors. This training stand consists of separate stepper motors for moving the cabin and door, a load to maintain the balance of the cabin, sensors for motion control and a control system (PLC). The stand is designed for indoor use at temperatures from +5C to +35C and relative humidity from 30% to 70%. Using this stand, students learn to work with sensors, control stepper motors and write programs for the control system called PLC. On the elevator training stand, students consolidate their theoretical knowledge by applying it with the help of a teacher. Students will have the opportunity to use this training stand under the supervision of a laboratory assistant in addition to classes.",
+  
+  "schedules": "Schedules",
+  "intranet": "Intranet",
+  "intranetPartTime": "Intranet (part-time education)",
+  "library": "Library", 
+  "email": "Email",
+  "studentGrades": "Student Grades",
+  "studentAttendance": "Student Attendance",
+  "attendance": "Attendance",
+  "address": "Shota Rustaveli str., 156, 100121 Tashkent",
+  "copyright": "Copyright © 2024 KIUT. All rights reserved"
+}

@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Innovatsion markaz",
+  "laboratories": "Laboratoriyalar",
+  "projects": "Loyihalar",
+  "startups": "Startaplar",
+  "innovationCenter": "INNOVATSION MARKAZ", 
+  "laboratoriesTitle": "LABORATORIYALAR",
+  "labTypes": "LABORATORIYA TURLARI",
+  "projectsTitle": "LOYIHALAR",
+  "ourProjects": "BIZNING LOYIHALAR",
+  "famousProjects": "MASHHUR LOYIHALAR",
+  
+  "labsDescription": "Universitet laboratoriyalari talabalarning nazariy bilimlarini amaliy mustahkamlash uchun zamonaviy jihozlar bilan jihozlangan. \"Arxitektura maketlash\" laboratoriyasi 3D-printerlar yordamida modellar yaratish imkonini beradi, \"Elektrotexnika laboratoriyasi\" va \"Robototexnika laboratoriyasi\" esa ostsiloskoplar, multimetrlar va Arduino platformalariga kirish imkonini beradi. \"Mexatronika laboratoriyasida\" talabalar pnevmatik, gidravlik va servo haydovchi stendlar bilan ishlaydilar. \"Muqobil energetika laboratoriyasi\" va \"Qurilish materiallari laboratoriyasi\" qayta tiklanadigan energiya manbalarini va materiallarning fizik xossalarini o'rganish imkonini beradi, mutaxassislarning har tomonlama amaliy tayyorgarligini ta'minlaydi.",
+  
+  "electronicsLab": "Elektronika laboratoriyasi",
+  "mechatronicsLab": "Mexatronika laboratoriyasi",
+  "renewableEnergyLab": "Qayta tiklanadigan energiya laboratoriyasi",
+  "constructionLab": "Qurilish laboratoriyasi", 
+  "roboticsLab": "Robototexnika laboratoriyasi",
+  
+  "projectsDescription": "Universitet amaliyotga yo'naltirilgan ta'lim va innovatsion loyihalarni faol joriy etmoqda. Talabalar uchun PLC dasturlash va sensorlar bilan ishlash imkonini beruvchi lift o'quv stendi yaratilgan, shuningdek muqobil energetikani o'rganish va energiya iste'molini kamaytirish uchun vertikal shamol turbinasi o'rnatilgan. Yuz tanish va o'z-o'zini o'rgatish funksiyalariga ega KIUT robotlari ishlab chiqilgan, \"Muhandis D\" startap inkubatori esa CAD, robototexnika va mexatronika sohalarida muhandislar tayyorlaydi. Barcha bu tashabbuslar \"Sanoat 4.0\" kontseptsiyasiga mos keladi, \"aqlli\" ishlab chiqarish yechimlarini yaratish uchun Narsalar Internetini (IoT) va sun'iy intellektni birlashtiradi.",
+  
+  "robotKiut": "Robot KIUT 1.0",
+  "robotDescription": "Funksional: Robot yuz tanish orqali ma'lumotlar bazasiga kiritilgan yuzlarni aniqlash va universitet haqida ma'lumot berish kabi umumiy vazifalarni bajarish uchun moslashtirilgan. Robot KIUT 2.0: a) Tanishuv: Yangi suhbatda odamning uni ma'lumotlar bazasiga kiritish so'rovi, \"Roziman\" javobini olgandan so'ng, uni ma'lumotlar bazasiga kiritish vazifasini bajaradi. Keyingi uchrashuvda u tanishish va u haqida ma'lumot berish imkoniyatiga ega bo'ladi. b) Sun'iy intellekt bilan aloqa.",
+  
+  "verticalTurbine": "Vertikal shamol turbinasi",
+  "turbineDescription": "Vertikal o'qli shamol generatori - bu Toshkent xalqaro kimyo universitetining B korpusida o'rnatilgan shamol generatori bo'lib, an'anaviy shamol generatorlaridan farqli o'laroq, bu generator shamol yo'nalishining o'zgarishiga salbiy ta'sir ko'rsatmaydi. Bu generator universitetning tashqi elektr energiyasi iste'molini kamaytirish uchun o'rnatilgan. Shamol generatori shamol tezligi 4-6 m/s ga yetganda optimal ish rejimiga chiqadi. Ushbu qurilmaning maksimal quvvati 500 Vt. Ushbu shamol generatorining o'ziga xos xususiyati shundaki, qo'shimcha shamol generatorlarini qo'shish orqali o'rnatish quvvatini oshirish mumkin va qurilma konstruktsiyasi buni imkon beradi.",
+  
+  "liftStand": "Lift o'qitish stendi",
+  "liftDescription": "Bu stend asosan lift sohasida tahsil olayotgan talabalar uchun mo'ljallangan bo'lib, ular ushbu ta'lim stendi yordamida nazariy bilimlarini amalda qo'llash imkoniyatiga ega bo'ladilar. Lift o'quv stendi 2 nusxada tayyorlangan bo'lib, ularning har biri 5 qavatdan iborat. Ushbu o'quv stendi kabina va eshikni harakatlantirish uchun alohida qadam motorlari, kabina muvozanatini saqlash uchun yuk, harakat nazorati uchun sensorlar va boshqaruv tizimi (PLC) dan iborat. Stend +5C dan +35C gacha haroratda va 30% dan 70% gacha nisbiy namlikda ichki foydalanish uchun mo'ljallangan. Ushbu stend yordamida talabalar sensorlar bilan ishlashni, qadam motorlarini boshqarishni va PLC deb ataladigan boshqaruv tizimi uchun dasturlar yozishni o'rganadilar. Lift o'quv stendida talabalar o'qituvchi yordamida nazariy bilimlarini qo'llab mustahkamlaydilar. Talabalar darslardan tashqari laborant nazorati ostida ushbu o'quv stendidan foydalanish imkoniyatiga ega bo'ladilar.",
+  
+  "schedules": "Dars jadvallari",
+  "intranet": "Intranet",
+  "intranetPartTime": "Intranet (sirtqi ta'lim)",
+  "library": "Kutubxona",
+  "email": "Elektron pochta",
+  "studentGrades": "Talaba baholari", 
+  "studentAttendance": "Talaba davomati",
+  "attendance": "Davomat",
+  "address": "Shota Rustaveli ko'chasi, 156, 100121 Toshkent",
+  "copyright": "Mualliflik huquqi © 2024 KIUT. Barcha huquqlar himoyalangan"
+}
