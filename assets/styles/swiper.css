@@ -128,7 +128,7 @@
     }
 
     .topInnovationsSwiper-main {
-        height: 600px;
+        height: auto;
     }
 
     .top__innovations {
@@ -165,7 +165,7 @@
     }
 
     .topInnovationsSwiper-main {
-        height: 500px;
+        height: auto;
         border-radius: 5px;
     }
 
@@ -222,7 +222,7 @@
     }
 
     .topInnovationsSwiper-main {
-        height: 450px;
+        height: auto;
     }
 
     .top__innovations {
@@ -270,7 +270,7 @@
     }
 
     .topInnovationsSwiper-main {
-        height: 400px;
+        height: auto;
     }
 
     .top__innovations-card {

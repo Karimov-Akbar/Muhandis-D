@@ -35,6 +35,7 @@ const swiperMain = new Swiper(".topInnovationsSwiper-main", {
     loop: true,
     grabCursor: true,
     spaceBetween: 10,
+    autoHeight: true,
     thumbs: {
         swiper: swiperThumbs,
     },

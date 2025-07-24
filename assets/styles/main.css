@@ -345,7 +345,7 @@ ul{
 }
 
 .top__innovations-card{
-    height: 100%;
+    height: auto;
     background: #0096db;
     border-radius: 10px;
     padding: 60px;
@@ -368,12 +368,57 @@ ul{
 }
 
 .top__innovations-card p{
-    height: 100%;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 15px;
     text-align: justify;
     color: #fff;
+}
+
+.muhandis{
+    height: 100%;
+    background: #0096db;
+    padding: 50px;
+}
+
+.muhandis__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.muhandis__content h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.muhandis__content p{
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    white-space: pre-line;
+    max-width: 1050px;
+    color: #fff;
+}
+
+.muhandis__images{
+    max-width: 900px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.muhandis__images img{
+    max-width: 450px;
+    max-height: 250px;
 }
 
 .footer{
@@ -725,5 +770,81 @@ ul{
 
     .footer__copy {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .muhandis {
+        padding: 40px 20px;
+    }
+
+    .muhandis__content h2 {
+        font-size: 32px;
+    }
+
+    .muhandis__content p {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    .muhandis__images {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .muhandis__images img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .muhandis {
+        padding: 30px 15px;
+    }
+
+    .muhandis__content h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .muhandis__content p {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .muhandis__images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .muhandis__images img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .muhandis {
+        padding: 25px 10px;
+    }
+
+    .muhandis__content h2 {
+        font-size: 24px;
+    }
+
+    .muhandis__content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .muhandis__content h2 {
+        font-size: 22px;
+    }
+
+    .muhandis__content p {
+        font-size: 13px;
     }
 }
