@@ -357,7 +357,7 @@ ul{
 
 .top__innovations-card img{
     max-width: 450px;
-    max-height: 250px
+    height: 250px;
 }
 
 .top__innovations-card h3{
