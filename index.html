@@ -55,29 +55,45 @@
             <div class="labs__gallery-content container">
                 <h2 data-translate="labTypes">ВИДЫ ЛАБОРАТОРИЙ</h2>
                 <div class="labs__gallery-content-images">
-                    <div class="labs__gallery-content-card">
+                    <div class="labs__gallery-content-card" data-lab="electronics">
                         <img src="./assets/images/Elektronika lab 2.jpg" alt="">
                         <h3 data-translate="electronicsLab">Лаборатория электроники</h3>
                     </div>
-                    <div class="labs__gallery-content-card">
+                    <div class="labs__gallery-content-card" data-lab="mechatronics">
                         <img src="./assets/images/Mexatronika lab 1.JPG" alt="">
                         <h3 data-translate="mechatronicsLab">Лаборатория механотронники</h3>
                     </div>
-                    <div class="labs__gallery-content-card">
+                    <div class="labs__gallery-content-card" data-lab="renewable">
                         <img src="./assets/images/Muqobil energiya lab 1.jpg" alt="">
                         <h3 data-translate="renewableEnergyLab">Лаборатория возобновляемой энергии</h3>
                     </div>
-                    <div class="labs__gallery-content-card">
+                    <div class="labs__gallery-content-card" data-lab="construction">
                         <img src="./assets/images/Qurulish lab 1.JPG" alt="">
                         <h3 data-translate="constructionLab">Лаборатория строительства</h3>
                     </div>
-                    <div class="labs__gallery-content-card">
+                    <div class="labs__gallery-content-card" data-lab="robotics">
                         <img src="./assets/images/Robototexnika lab 1.jpg" alt="">
                         <h3 data-translate="roboticsLab">Лаборатория робототехники</h3>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <div id="labModal" class="lab-modal">
+            <div class="lab-modal-content">
+                <span class="lab-modal-close">&times;</span>
+                <div class="lab-modal-body">
+                    <img id="labModalImage" src="/placeholder.svg" alt="">
+                    <div class="lab-modal-info">
+                        <h2 id="labModalTitle"></h2>
+                        <p id="labModalDescription"></p>
+                    </div>
+                    <div class="lab-modal-additon-image">
+                        <img id="labModalAdditonImage" src="/placeholder.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <section class="innovations">
             <div class="innovations__content container">
@@ -172,8 +188,9 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./assets/scripts/swipper.js"></script>
+    <script src="./assets/scripts/swiper.js"></script>
     <script src="./assets/scripts/script.js"></script>
     <script src="./assets/scripts/translate.js"></script>
+    <script src="./assets/scripts/modal.js"></script>
 </body>
 </html>

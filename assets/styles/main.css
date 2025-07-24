@@ -1,5 +1,6 @@
 @import url("./fonts.css");
 @import url("./swiper.css");
+@import url("./modal.css");
 
 *{
     margin: 0;
@@ -255,6 +256,13 @@ ul{
 .labs__gallery-content-card{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.labs__gallery-content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 150, 219, 0.3);
 }
 
 .labs__gallery-content-card h3{
@@ -265,6 +273,14 @@ ul{
     font-weight: 400;
     font-size: 15px;
     color: #fff;
+}
+
+.labs__gallery-content-card img {
+    transition: transform 0.3s ease;
+}
+
+.labs__gallery-content-card:hover img {
+    transform: scale(1.05);
 }
 
 .innovations{
