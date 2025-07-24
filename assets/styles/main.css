@@ -151,7 +151,7 @@ ul{
 .header{
     display: flex;
     position: relative;
-    background: url("../images/pexels-chokniti-khongchum-1197604-2280571.jpg");
+    background: url("../images/page-header.jpg__2000.0x732.0_q85_subsampling-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ ul{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #212529;
+    background: #0096db;
     opacity: 0.3;
 }
 
