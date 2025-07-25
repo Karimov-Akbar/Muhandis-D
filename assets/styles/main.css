@@ -283,48 +283,10 @@ ul{
     transform: scale(1.05);
 }
 
-.innovations{
-    margin-top: 120px;
-}
-
-.innovations__content img{
-    width: 550px;
-    height: 350px;
-}
-
-.innovations__content{
-    display: flex;
-    align-items: center;
-    gap: 120px;
-}
-
-.innovations__content-info{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
-}
-
-.innovations__content-info h2{
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 40px;
-    color: #000;
-    text-align: center;
-}
-
-.innovations__content-info p{
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 15px;
-    color: #000;
-}
-
 .innovations__gallery {
     margin-top: 50px;
     padding: 50px 0;
 }
-
 
 .innovations__gallery h2{
     font-family: 'Montserrat';
@@ -406,19 +368,17 @@ ul{
     color: #fff;
 }
 
-.muhandis__images{
-    max-width: 900px;
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+.muhandis__events{
+    margin-top: 50px;
 }
 
-.muhandis__images img{
-    max-width: 450px;
-    max-height: 250px;
+.muhandis__events h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
 }
 
 .footer{
@@ -508,18 +468,8 @@ ul{
         height: 280px;
     }
 
-    .labs__content-info h2,
-    .innovations__content-info h2 {
+    .labs__content-info h2{
         font-size: 32px;
-    }
-
-    .innovations__content {
-        gap: 60px;
-    }
-
-    .innovations__content img {
-        width: 450px;
-        height: 280px;
     }
 
     .labs__gallery-content-images {
@@ -614,13 +564,6 @@ ul{
         font-size: 28px;
     }
 
-    .innovations__content-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
     .labs__gallery-content h2 {
         font-size: 28px;
     }
@@ -639,26 +582,6 @@ ul{
 
     .labs__gallery-content-card h3 {
         max-width: 100%;
-    }
-
-    .innovations {
-        margin-top: 60px;
-    }
-
-    .innovations__content {
-        flex-direction: column-reverse;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .innovations__content img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-    }
-
-    .innovations__content-info h2 {
-        font-size: 28px;
     }
 
     .labs__gallery {
@@ -736,15 +659,13 @@ ul{
     }
 
     .labs__content-info h2,
-    .innovations__content-info h2,
     .labs__gallery-content h2,
     .innovations__gallery h2,
     .top__innovations h2 {
         font-size: 24px;
     }
 
-    .labs__content-info p,
-    .innovations__content-info p {
+    .labs__content-info p {
         font-size: 14px;
     }
 
@@ -778,22 +699,13 @@ ul{
         padding: 40px 20px;
     }
 
-    .muhandis__content h2 {
+    .muhandis__content h2, .muhandis__events h2 {
         font-size: 32px;
     }
 
     .muhandis__content p {
         font-size: 18px;
         max-width: 90%;
-    }
-
-    .muhandis__images {
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .muhandis__images img {
-        max-width: 400px;
     }
 }
 
@@ -802,7 +714,7 @@ ul{
         padding: 30px 15px;
     }
 
-    .muhandis__content h2 {
+    .muhandis__content h2, .muhandis__events h2{
         font-size: 28px;
         text-align: center;
     }
@@ -812,17 +724,6 @@ ul{
         max-width: 100%;
         text-align: center;
     }
-
-    .muhandis__images {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .muhandis__images img {
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -830,7 +731,7 @@ ul{
         padding: 25px 10px;
     }
 
-    .muhandis__content h2 {
+    .muhandis__content h2, .muhandis__events h2 {
         font-size: 24px;
     }
 
@@ -840,7 +741,7 @@ ul{
 }
 
 @media screen and (max-width: 360px) {
-    .muhandis__content h2 {
+    .muhandis__content h2, .muhandis__events h2 {
         font-size: 22px;
     }
 
